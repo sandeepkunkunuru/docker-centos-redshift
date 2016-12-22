@@ -9,8 +9,8 @@ Docker container that contains
 * Replace placeholders in odbc.ini, test.sh and Makefile (optional, needed only if you intend to use container registry)
 * Run below commands
 
-	make image
-	make publish # first time you will be prompted to login to container registry ex: for AWS ecr it would prompt to run `aws ecr get-login` and then execute the output command for docker.
+		make image
+		make publish # first time you will be prompted to login to container registry ex: for AWS ecr it would prompt to run `aws ecr get-login` and then execute the output command for docker.
 
 * Within docker you should see an output file for test.sh
 
